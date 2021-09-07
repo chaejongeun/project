@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/* #d5e2fb */
+
+body{
+    min-width: 320px;
+}
+.inner{
+    width: 90%;
+}
+section .inner{ padding: 0; }
+
+header {
+    width: 100%; height: 56vw; 
+    background:white;
+    background-size: 100% 90%;
+}
+header .mySwiper .swiper-slide:nth-child(1){
+    background: url(../images/rancome/lancome-main-1_01.png) no-repeat;
+    background-size: contain; 
+    width: 100%; height: 100vh; 
+}
+header .mySwiper .swiper-slide:nth-child(2){
+    background: url(../images/rancome/lancome-main-2_02.png) no-repeat;
+    background-size: contain;  
+    width: 100%; height: 100vh; 
+}
+header .mySwiper .swiper-slide:nth-child(3){
+    background: url(../images/rancome/lancome-main-3_01.png) no-repeat;
+    background-size: contain; 
+    width: 100%; height: 100vh; 
+}
+
+
+header a img {
+    padding: 10px 3%;
+    margin-bottom: 0;
+    width: 100px;
+}
+/* .mySwiper{display: none;} */
+.mySwiper{
+    width: 100%;
+    height: 56vw;
+}
+.logo{
+    height: 80px;
+    display: block;
+}
+
+/* nav------------------------ */
+
+nav{display: none;}
+
+/* .dmenu { list-style-type:none; }
+    .dmenu a {
+        display: block; width: 150px; height: 20px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        margin-top:100px;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px solid #d9d9da;
+        color: #d9d9da; text-decoration: none;
+    }
+    .dmenu a:hover { 
+        height: 20px;
+        color: black; 
+    }
+
+.d2menu { list-style-type:none; }
+    .d2menu a {
+        display: block; width: 150px; height: 20px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px solid #d9d9da;
+        color: #d9d9da; text-decoration: none;
+    }
+    .d2menu a:hover { 
+        height: 20px;
+        color: black; 
+    }
+    
+    .menu  { list-style-type:none; }
+    .menu {
+        display: block; width: 150px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        text-align: center;
+        border: 3px solid #d9d9da;
+        border-radius: 30px;       
+        color:#d9d9da; text-decoration: none;
+    }
+    .menu a {
+        color:#d9d9da;
+        text-decoration: none;
+    }
+    .menu ul {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menu ul li{ 
+        height:20px;
+        margin-top:20px;
+    }
+
+    .menu ul li a{
+        color:#d9d9da;
+    }
+
+  
+    .menu:hover ul { 
+        height: 130px;       
+        transition: height 0.5s;
+    }
+
+    .menu:hover ul li a{
+        color:#d9d9da;
+        display: block;
+        text-decoration:underline;
+        
+    }
+
+    .menu:hover a{
+        color:black;
+    } */
+
+
+    .yback {
+        position: relative;
+        width: 100%; height: 500px;
+        background: #d5e2fb;
+        background-size: 100% 500px
+    }
+    /* 유튜브 백그라운드---png & 하늘색배경 */
+    
+    .youtb iframe{
+        width:100%;
+        height:400px;
+        padding-left:1%;
+        padding-right: 1%;
+        padding-top:70px;
+    }
+    /* 동영상 */
+
+/* -----------------------------제품설명-------------------------------- */
+
+.background {
+    background: #d5e2fb;
+    width:100%; height:100%;
+    position: relative;
+    background-size: cover;
+    padding-top:20vw;
+}
+ 
+.background .wpahr{
+    display: block;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+    padding-bottom:10vw;
+    color:#29306e;
+}
+section.background div.clarifique{
+    width:90%;
+    height: 100%;
+} 
+
+
+section.background h3{
+    font-size: 3vw;
+    padding-left: 87%;
+    padding-top: 12%;
+}
+
+section.background .NEW{
+    font-size: 10vw;
+    padding-left: 50%;
+}
+
+section.background .dual{
+    font-size: 4vw;
+    padding-left: 50%;
+}
+
+section.background p{
+    font-size:3vw;
+    padding-left: 50%;
+    padding-top:2%;  
+}
+section.background p br{
+    display: none;
+}
+section.background div.clarifique .clgogo button{
+    width: 30%;
+    height: auto;
+    padding-bottom: 0;
+    border-radius: 5px;
+    margin-left: 37%;
+    margin-top: 16%;
+    margin-bottom: 5%;
+    padding: 10px 0 5px;
+}
+
+.clgogo{
+    display: flex;
+    justify-content: center;
+    padding: 18% 0 20px;
+}
+.clgogo a{
+    text-decoration: none;
+    width: 30%;
+    background: #9cbefc;
+    padding-bottom: 0;
+    padding: 5px 0;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+section.background .clarifique .clgogo .h4{
+    font-size:2vw;
+    padding-top:0;
+    margin:0 0 1vw 0;
+}
+
+section.background .clarifique .clgogo span{
+    font-size:1vw;
+    color:white;
+    margin:0 0 5px 0;    
+}
+
+/*클라리피끄text*/
+
+section.background div.genifique{
+    background: url(../images/rancome/jeniback.png)no-repeat;
+    background-size: 100% 50vw;
+    width:90%;
+    height:100%;
+    padding-top:0;
+}
+
+/* 제니피끄 기본틀 */
+
+section.background .genifique .bt{
+    display: none;
+}
+/* 레네르지 best pc용 */
+
+section.background .genifique .best{
+    font-size:3vw;
+    padding-left: 86.5%;
+    padding-top: 2%;
+}
+
+section.background .genifique .advan{
+    font-size: 7vw;
+    padding: 3% 0 0 45%;
+}
+
+
+section.background .genifique .geni{
+    font-size: 4vw;
+    padding: 1% 0 0 47%;
+    font-weight: bold;
+}
+
+section.background .genifique .sevendays{
+    font-size: 3vw;
+    padding-left: 47%;
+    padding-top: 2%;
+}
+section.background .genifique .sevendays .chill{
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+
+section.background div.genifique .genigogo a{
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 37%;
+    margin-top: 25%;  
+    padding: 10px 0;
+    height: auto;
+}
+
+section.background div.genifique .genigogo .gogo{
+    font-size:2vw;
+    padding-top:0;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+section.background div.genifique .genigogo span{
+    font-size:1vw;
+}
+/* 제니피끄 text */
+
+
+.genifique .RB{
+    display: block;
+    background:url(../images/rancome/renerback_07.png)no-repeat;
+    background-size: 100% 50vw;
+    width: 100%;
+    height: 50vw;
+    margin-top: 5vw;
+    text-align: center;
+    position: relative;
+}
+
+.genifique .renegogo{
+    display: block;
+    margin: 17px 0 0 0;
+    background: #9cbefc;
+    width: 30%;
+    border-radius:  5px;
+    margin-left: 37%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.genifique .renegogo .re{
+    font-size:2vw;
+    padding-top:1.5vw;
+    margin:0;
+    color:white;
+}
+
+.genifique .renegogo span{
+    font-size:1vw;
+    color:white;
+}
+
+/* 레네르지 */
+
+section.background div.gongsick .online{
+    font-size:5vw;
+    text-align: center;
+    padding-top:30vw;
+    
+}
+
+.gongsick{
+    width: 100%;
+    height: 100%;
+    padding-bottom:30vw;
+}
+
+.gongsick > .benefit{
+    width:auto;
+    height:auto;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 15vw;
+}
+
+.gongsick > .benefit div:nth-child(1){
+    background: url(../images/rancome/promotion_03.png) 50% 50% no-repeat;
+    background-size:contain;
+    width: 60vw;
+    height: 50vw;
+    cursor:pointer;
+   
+}
+.gongsick > .benefit div:nth-child(2){
+    background: url(../images/rancome/ini_05.png) 50% 50% no-repeat;
+    background-size: contain;
+    width: 60vw;
+    height: 50vw;
+    cursor:pointer;
+   
+}
+.gongsick > .benefit div:nth-child(3){
+    background: url(../images/rancome/newht_07.png) 50% 50% no-repeat;
+    background-size: contain;
+    width: 60vw;
+    height: 50vw;
+    cursor:pointer;
+}
+
+.btgroup button{
+    display: none;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    height: 100px;
+    background: white;
+    font-size: 1vw;
+}
+
+footer .inner .footerLeft{
+    display:none;
+}
+.footerLeft .footerMenu span{
+    display:none;
+}
+
+.footerLeft .footerMenu span::after{
+ display:none;
+}
+.footerLeft .footerMenu span:last-child::after{
+    display: none;
+}
+.footerLeft .addr,
+.footerLeft .tel,
+.footerLeft .copyright{
+    display: none;
+}
+
+
+
+
+/* sns */
+
+
+footer ul li{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin: 0 40% 0 0;
+    cursor: pointer;
+    align-items: center;
+}
+footer ul li:hover,
+.footerRight div span:hover{
+    color: red;
+}
+
+
+
+
+
+
+.facebook{
+    background: url(../images/rancome/facebooklogo_06.png)no-repeat;
+    background-size: contain;
+}
+
+.instagram{
+    background: url(../images/rancome/instalogo_06.png)no-repeat;
+    background-size: contain;
+}
+
+.youtube{
+    background: url(../images/rancome/youtubelogo_06.png)no-repeat;
+    background-size: contain;
+}

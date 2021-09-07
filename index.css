@@ -1,0 +1,446 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 노토산스체 */
+
+:root {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+.visual {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+}
+.visual .full {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.full iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sec01 {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 2;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.Title h1 {
+    font-size: 6.14rem;
+    text-shadow: 10px 10px 1px rgb(0 0 0);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;  
+    text-align: right; 
+    color: black;
+    
+}
+
+.about > div {
+    position: absolute;
+    right: 0;
+    top:50px;
+}
+
+h2 {
+    text-shadow: 3px 3px 1px rgb(255 255 255);
+    display: block;
+    font-size: 1.5em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.chaejongeun{
+    width: 100%;
+    height: auto;
+}
+.chaejongeun img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 랑콤 */
+
+section.section2 {
+    width: 100%;
+    height: auto;
+    background:white;
+    margin: 0;
+}
+
+article > div h2 {
+    font-size: 3rem;
+    color: black;
+    text-shadow: none;
+    padding-top: 50px;
+}
+
+.down {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.down .img{
+    background:url(../images/portfolio/lancomemain.png)0 0 no-repeat;
+    background-size: contain;
+    width: 515px;
+    height: 285px;
+    margin: 0;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.down .text{
+    background:url(../images/portfolio/lancometext_01.png)0 0 no-repeat;
+    background-size: contain;
+    width: 543px;
+    height: auto;
+    margin-left: 20px;
+}
+article > div {
+    width: 1080px;
+    height: auto;
+    margin: auto;
+}
+
+.bt a.lancome {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 200px;
+    margin-left: 32px;
+}
+
+ .bt a.lancome:hover{
+     border: 1px solid #bebebe;
+}
+
+.bt a.pdf1 {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 205px;
+}
+
+ .bt a.pdf1:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+.bt a.ui{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 377px;
+}
+
+ .bt a.ui:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+
+
+/* 콤카 */
+
+
+section.section3 {
+    width: 100%;
+    height: auto;
+    background:white;
+    margin: 0;
+}
+
+
+.up {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.up .kom{
+    background:url(../images/portfolio/komcamain.png)0 0 no-repeat;
+    background-size: cover;
+    width: 515px;
+    height: 285px;
+    margin: 0;
+    box-shadow: 10px 10px 10px rgb(0 0 0/ 50%);
+}
+
+.up .produ{
+    background:url(../images/portfolio/komcatext.png)0 0 no-repeat;
+    background-size: contain;
+    width: 543px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.bt a.komca {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 195px;
+    margin-left: 32px;
+}
+
+ .bt a.komca:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+
+.bt a.sub {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 205px;
+}
+
+ .bt a.sub:hover{
+     border: 1px solid #bebebe;
+}
+
+
+.bt a.pdf2{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 377px;
+}
+
+ .bt a.pdf2:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+
+
+
+
+
+
+/* 포카리 */
+
+section.section4 {
+    width: 100%;
+    height: auto;
+    background:white;
+    margin: 0;
+}
+
+
+.in {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.in .poca{
+    background:url(../images/portfolio/pocarimain.png)0 0 no-repeat;
+    background-size: contain;
+    width: 515px;
+    height: 285px;
+    margin: 0;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.in .ri{
+    background:url(../images/portfolio/pocaritext.png)0 0 no-repeat;
+    background-size: contain;
+    width: 543px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.bt a.pcr {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 190px;
+    margin-left: 32px;
+}
+
+ .bt a.pcr:hover{
+     border: 1px solid #bebebe;
+}
+
+
+.bt a.pdf3 {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 203px;
+}
+
+ .bt a.pdf3:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+
+/* 디자인작업물 */
+
+section.section6 {
+    width: 100%;
+    height: auto;
+    background:black;
+    margin: 0;
+}
+
+
+.work {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.work .jpg{
+    background:url(../images/portfolio/project4img.png) 0 no-repeat;
+    background-size: cover;
+    width: 512px;
+    height: 282px;
+    margin: 0;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.work .tjfaud{
+    background:url(../images/portfolio/project4text.png)0 0 no-repeat;
+    background-size: contain;
+    width: 543px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.bt a.designwork{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 160px;
+    margin-left: 32px;
+}
+
+ .bt a.designwork:hover{
+     border: 1px solid #bebebe;
+}
+
+
+
+/* 컨택 */
+
+.contact{
+    background:white;
+    width: 100%;
+    height: 35vw;
+}
+
+.contact h1{
+font-size: 120px;
+font-weight: 700;
+color: black;
+text-shadow: 10px 10px 1px rgb(0 0 0);
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 3px;
+padding: 0 0 0px 385px;
+margin: 100px 0;
+}
+
+
+
+
+.contact p{
+font-size: 80px;
+font-weight: 600;
+display: inline-flex;
+color: black;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+padding: 0 0 0 385px;
+}
+
+
+.contact p:hover{
+    -webkit-text-fill-color: black;
+}

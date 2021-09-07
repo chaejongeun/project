@@ -1,0 +1,524 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 노토산스체 */
+/* @import url(ani.css); */
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid red; */
+}
+
+body{min-width:1200px;}
+
+.inner{
+    width: 1200px;
+    margin:0 auto;
+}
+header {
+    width: 100%; height: 100vh; 
+    position: relative;
+}
+
+header .mySwiper .swiper-slide:nth-child(1){
+    background: url(../images/rancome/lancome-main-1_01.png) no-repeat;
+    background-size: cover; 
+    width: 100%; height: 100vh; 
+}
+header .mySwiper .swiper-slide:nth-child(2){
+    background: url(../images/rancome/lancome-main-2_02.png) no-repeat;
+    background-size: cover;  
+    width: 100%; height: 100vh; 
+}
+header .mySwiper .swiper-slide:nth-child(3){
+    background: url(../images/rancome/lancome-main-3_01.png) no-repeat;
+    background-size: cover; 
+    width: 100%; height: 100vh; 
+}
+
+
+header img {
+    padding:50px;
+    margin-bottom: 100px;
+    width: 270px;
+    height: 60;
+}
+
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    z-index: 20;
+}
+
+/* -------------------------nav------------------------------------- */
+/* nav{position: fixed;} */
+nav{
+    position: absolute;
+    top: 18vw;
+    left: 0;
+    z-index: 20;
+}
+.dmenu { list-style-type:none; }
+    .dmenu a {
+        display: block; width: 150px; height: 20px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        margin-top:100px;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px solid white;
+        color: white; text-decoration: none;
+    }
+    .dmenu a:hover { 
+        height: 20px;
+        color: #29306e; 
+    }
+
+.d2menu { list-style-type:none; }
+    .d2menu a {
+        display: block; width: 150px; height: 20px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px solid white;
+        color: white; text-decoration: none;
+    }
+    .d2menu a:hover { 
+        height: 20px;
+        color: #29306e; 
+    }
+    
+    .menu  { list-style-type:none; }
+    .menu {
+        display: block; width: 150px; 
+        padding:10px; margin-bottom: 30px; margin-left: 80px;
+        text-align: center;
+        border: 3px solid white;
+        border-radius: 30px;       
+        color:white; text-decoration: none;
+    }
+    .menu a {
+        color:white;
+        text-decoration: none;
+    }
+    .menu ul {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menu ul li{ 
+        height:20px;
+        margin-top:20px;
+    }
+
+    .menu ul li a{
+        color:white;
+    }
+
+  
+    .menu:hover ul { 
+        height: 130px;       
+        transition: height 0.5s;
+    }
+
+    .menu:hover ul li a{
+        color:white;
+        display: block;
+        text-decoration:underline;
+    }
+    .menu:hover ul li a:hover{
+        color:#29306e;
+    }
+
+    .menu:hover a{
+        color:#29306e;
+
+    }
+
+
+
+
+/* -----------------------유튜브------------------------------------ */
+
+.yback {
+    position: relative;
+    width: 100%; height: 1080px;
+    background: url("../images/rancome/background2.png") 50% 50%no-repeat, 
+    url(../images/rancome/youtbback_02.png) 50% 50% no-repeat; 
+    background-size: 1200px 1080px, cover;
+}
+/* 유튜브 백그라운드---png & 하늘색배경 */
+
+.youtb iframe{
+    padding-left:400px;
+    padding-top:150px;  
+}
+/* 동영상 */
+
+
+
+
+/* -----------------------------제품설명-------------------------------- */
+
+
+.background {
+    background: url(../images/rancome/background_03.png) no-repeat;
+    width:100%; height:100%;
+    position: relative;
+    background-size: cover;
+}
+/* 제품상세 백그라운드 */
+
+/* .background::before{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    bottom: 0;
+    background: url(../images/rancome/waterdrop.png) 0 0 no-repeat;
+    width:1690px; height:2033px;
+    content: "";
+    background-position: fixed;                   
+    
+} */
+/* 물방울png 하다가포기함 */
+
+.background .wpahr{
+    display: none;
+}
+
+section.background div.clarifique{
+    background: url(../images/rancome/clarifique_03.png)no-repeat;
+    width:1200px;
+    height: 790px;
+    background-size: contain;
+}
+/* 클라리피끄 기본틀 */
+
+section.background h3{
+    font-size:30px;
+    padding-left:1047px;
+    padding-top:155px;
+    color: white;
+}
+
+section.background .NEW{
+    font-size:100px;
+    font-weight: bolder;
+    padding-left: 620px;
+    color:#e9a5cc;
+}
+
+section.background .dual{
+    font-size: 45px;
+    padding-left: 620px;
+}
+
+section.background p{
+    font-size:30px;
+    padding-left: 620px;
+    padding-top:30px;
+    color:#919090;
+   
+}
+.clgogo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 79px 20px 0;
+}
+.clgogo a{
+    width:200px;
+    background: #9cbefc;
+    padding-bottom:10px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;  
+    flex-direction: column;
+    align-items: center ;
+    text-decoration: none;
+    
+}
+.clgogo a:hover {
+    background:#e9a5cc;
+}
+
+
+section.background .clarifique .clgogo .h4{
+    font-size:20px;
+    padding-top:10px;
+    margin:0 0 10px 0;
+    color:white;
+
+}
+
+section.background .clarifique .clgogo span{
+    font-size:18px;
+    color:white;
+    margin:0 0 5px 0;
+ }
+
+/*클라리피끄text*/
+
+section.background div.genifique{
+    background: url(../images/rancome/JRbackground_03.png)no-repeat;
+    width:1200px;
+    height: 1050px;
+    padding-top:10px;
+    background-size: contain;
+}
+/* 제니피끄 레네르지 기본틀 */
+section.background .genifique .bt{
+    font-weight: bolder;
+    color:#e9a5cc;
+    font-size:35px;
+    padding-left: 697px;
+    padding-top: 455px;
+}
+/* 레네르지 best */
+
+section.background .genifique .best{
+    font-weight: bolder;
+    color:#e9a5cc;
+    font-size:35px;
+    padding-left:88px;
+    padding-top:50px;
+}
+
+section.background .genifique .advan{
+    color:#9cbefc;
+    font-size:70px;
+    padding:60px 0 0 40px;
+}
+
+
+section.background .genifique .geni{
+    font-size: 40px;
+    padding:0 0 0 40px;
+    color:black;
+    font-weight: normal;
+}
+
+section.background .genifique .sevendays{
+    font-size:22px;
+    color:#919090;
+    padding-left:42px;
+    padding-top:10px;
+}
+section.background .genifique .sevendays .chill{
+    font-size:36px;
+    font-weight: lighter;
+}
+
+
+ .genigogo a{ 
+    margin-left:40px;
+    margin-top:15px;
+    width: 190px;
+    height: 76px;
+    background: #9cbefc;
+    padding-bottom:10px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;  
+    flex-direction: column;
+    align-items: center ;
+    text-decoration: none;
+}
+
+section.background div.genifique .genigogo a:hover{
+    background:#e9a5cc;
+}
+
+section.background div.genifique .genigogo .gogo{
+    font-size:20px;
+    padding-top:10px;
+    margin:0 0 8px 0;
+    color:white;
+}
+
+section.background div.genifique .genigogo span{
+    font-size:18px;
+    color:white;
+}
+/* 제니피끄 text */
+.genifique .rene{
+    display:none;
+}
+
+.genifique .renegogo{
+    display:none;
+}
+/* 레네르지 */
+
+section.background div.gongsick .online{
+    font-size:35px;
+    text-align: center;
+    padding-top:300px;
+    color:#29306e;
+    
+}
+
+section.background .ht{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.gongsick{
+    width: 100%;
+}
+.gongsick > .benefit{
+    width:100%;
+    height:255px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    margin: 70px 0 0 0;
+}
+
+.gongsick > .benefit .promotion{
+    background: url(../images/rancome/promotion_03.png) 50% 50% no-repeat;
+    background-size: cover;
+    width:30%;
+    height: 100%;
+}
+.gongsick > .benefit div:nth-child(2){
+    background: url(../images/rancome/ini_05.png) 50% 50% no-repeat;
+    background-size: cover;
+    width:30%;
+    height: 100%;
+}
+.gongsick > .benefit div:nth-child(3){
+    background: url(../images/rancome/newht_07.png) 50% 50% no-repeat;
+    background-size: cover;
+    width:30%;
+    height: 100%;
+}
+
+
+.btgroup button{
+    justify-content: center;
+    background: #9cbefc;
+    font-size: 15px;
+    padding:12px 45px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    border:none;
+}
+
+
+.btgroup button:nth-child(2){
+    margin: 20px 215px 300px;
+}
+
+.btgroup a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.btgroup a:hover{
+    color:#29306e;
+}
+
+
+/* 푸터 */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: #e8effd;
+    display: block;
+    font-size: 12px;
+}
+footer .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer .inner .footerLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.footerLeft .footerMenu span{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+}
+.footerLeft .footerMenu span:first-child{
+    padding: 0px 20px 0px 0px;
+}
+.footerLeft .footerMenu span::after{
+    width: 1px;
+    height: 10px;
+    content: "";
+    background: #ccc;
+    position: absolute;
+    top: 2px;
+    right: -2px;
+}
+.footerLeft .footerMenu span:last-child::after{
+    display: none;
+}
+.footerLeft .addr,
+.footerLeft .tel,
+.footerLeft .copyright{
+    display: block;
+    margin: 3px 0 0 0;
+}
+
+
+
+
+
+
+
+/* sns */
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    margin: 50px 50px 0 0;
+    width: 20vw;
+}
+footer ul li{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    cursor: pointer;
+}
+footer ul li:hover,
+.footerRight div span:hover{
+    color: #fff;
+}
+footer ul li i{
+    font-size: 1.8rem;
+    margin: 0 3px 0 0;
+}
+
+
+.facebook{
+    background: url(../images/rancome/facebooklogo_06.png)no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram{
+    background: url(../images/rancome/instalogo_06.png)no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.youtube{
+    background: url(../images/rancome/youtubelogo_06.png)no-repeat;
+    width: 35px;
+    height: 35px;
+}
